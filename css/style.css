@@ -11,15 +11,19 @@ body{
 }
 @media  (max-width: 567px) {
   .slider{
-    margin-bottom: 80px;
+    margin-bottom: 75px;
   }
-  .slider h1{
-    font-size: 25px;
+  .slider h1,.courses-header{
+    font-size: 20px;
   }
-  .slider p{
-    font-size: small;
+  .slider p,.courses-para{
+    font-size: smaller;
   }
   .carousel-img{
     height: 400px;
+  }
+  .courses-img img{
+    width: 100%;
+    height: 250px;
   }
 }
