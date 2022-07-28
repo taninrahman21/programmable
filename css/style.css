@@ -9,6 +9,9 @@ body{
   filter: brightness(50%);
   height: 600px;
 }
+.frequent-section{
+  width: 100%;
+}
 @media  (max-width: 567px) {
   .slider{
     margin-bottom: 75px;
@@ -26,4 +29,10 @@ body{
     width: 100%;
     height: 250px;
   }
+}
+@media screen and (min-width:992px) {
+  .frequent-section{
+    width: 50%;
+  }
+  
 }
