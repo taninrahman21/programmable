@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Programmable</title>
+    <!-- Bootstrap link -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
     />
+    <!-- Font Awesome link -->
+    <script src="https://kit.fontawesome.com/c679a18827.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS link -->
     <link rel="stylesheet" href="css/style.css" />
+
   </head>
   <body>
     <!-- Start Header -->
@@ -44,7 +49,7 @@
                 <a href="#" class="nav-link">Success</a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
+                <a href="#about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
                 <a href="#" class="nav-link">Register</a>
@@ -144,6 +149,7 @@
 
     <!-- Start Main -->
     <main>
+
       <!-- Start Courses -->
       <section class="container my-5" id="courses">
         <div class="text-center">
@@ -261,6 +267,7 @@
         </div>
       </section>
       <!-- End Courses -->
+
       <!-- Start Explor Instititute Section -->
       <!-- <section> 
         <div class="container d-flex align-items-center flex-column flex-md-row rounded-2">
@@ -355,7 +362,92 @@
         </div>
       </section>
       <!-- End Register and Modal -->
+
+      <!-- Start Frequently Asked Questions -->
+      <section class="my-5">
+        <div class="text-center">
+          <h2 class="fw-bold">Frequently Asked Questions</h2>
+          <p>Here is some most common asked questions.Find your question.</p>
+        </div>
+        <div class="container w-50 mx-auto">
+          <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item mb-2">
+              <h2 class="accordion-header border" id="flush-headingOne">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What is difference between CSS Flexbox and Grid?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The basic difference between CSS Grid Layout and CSS Flexbox Layout is that flexbox was designed for layout in one dimension - either a row or a column. Grid was designed for two-dimensional layout - rows, and columns at the same time.</div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2">
+              <h2 class="accordion-header border" id="flush-headingTwo">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What is difference between Bootstrap and Tailwind CSS?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit.Tailwind offers predesigned widgets to build a site from scratch with fast UI development.</div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2">
+              <h2 class="accordion-header border" id="flush-headingTwo">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  What is the CSS Box Model?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">A box in CSS consists of a content area, which is where any text, images, or other HTML elements are displayed. This is optionally surrounded by padding, a border, and a margin, on one or more sides. The box model describes how these elements work together to create a box as displayed by CSS.</div>
+              </div>
+            </div>
+            <div class="accordion-item mb-2">
+              <h2 class="accordion-header border" id="flush-headingFour">
+                <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  What is HTML Semantics Tags?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Freequently Asked Questions -->
+
+      <!-- Start Company Section -->
+      <!-- <section>
+        <div class="container text-center my-5">
+          <h2 class="fw-bolder">Trusted by over 800+ companies</h2>
+          <div class="d-flex justify-content-evenly mb-5 mt-4">
+            <img src="images/company/company-1.png" alt="">
+            <img src="images/company/company-2.png" alt="">
+            <img src="images/company/company-3.png" alt="">
+            <img src="images/company/company-4.png" alt="">
+            <img src="images/company/company-5.png" alt="">
+            <img src="images/company/company-6.png" alt="">
+          </div>
+        </div>
+      </section> -->
+      <!-- End Company Section -->
+
     </main>
+      <!-- End Main -->
+
+      <!-- Start Footer -->
+      <!-- <footer class="bg-black text-center py-5 mt-5" id="about">
+        <h2 class="fw-bold text-white">Programmable</h2>
+        <p class="text-light fs-6 text-white-50 ">Office 21,Uttora 12/7,Dhaka <br>Capitail of Bangladesh</p>
+        <p class="text-light fs-6 text-white-50">Privacy Policy | Terms of use</p>
+        <div>
+          <a class="px-2" href="https://www.facebook.com/tanin.rahman.595" target="_blank"><i class="fa-brands fa-square-facebook text-white fs-4"></i></a>
+          <a class="px-2" href="http://www.instagram.com/mdtanin.21" target="_blank"><i class="fa-brands fa-square-instagram text-white fs-4"></i></a>
+          <a class="px-2" href="https://twitter.com/?lang=en" target="_blank"><i class="fa-brands fa-square-twitter text-white fs-4"></i></a>
+        </div>
+      </footer> -->
+      <!-- End Footer -->
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
